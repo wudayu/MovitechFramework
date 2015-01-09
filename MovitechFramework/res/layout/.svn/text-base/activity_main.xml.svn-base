@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.movitech.framework.views.PageSelectBar
+        android:id="@+id/psb_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp53"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_ll_bottom_main_activity"
+        android:baselineAligned="true"
+        android:orientation="horizontal" />
+    <com.movitech.framework.views.SwitchViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/psb_main" />
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 常用 -->
+    <color name="col_app">#FFF9A71A</color>
+    <color name="col_app_grey">#FFEEEEEE</color>
+    <color name="transparent_black_10_100">#19000000</color>
+    <color name="transparent_black_20_100">#32000000</color>
+    <color name="transparent_black_30_100">#4C000000</color>
+    <color name="transparent_black_40_100">#66000000</color>
+    <color name="transparent_black_50_100">#7F000000</color>
+    <color name="transparent_black_60_100">#96000000</color>
+    <color name="transparent_black_80_100">#C8000000</color>
+    <color name="transparent_white_60_100">#9DFFFFFF</color>
+    <color name="transparent_white_80_100">#C8FFFFFF</color>
+    <color name="transparent_white_100_100">#FFFFFFFF</color>
+    <color name="letter_grey_deep_2">#FF292929</color>
+    <color name="letter_grey_deep_3">#FF333333</color>
+    <color name="letter_grey_deep_4">#FF4D4D4D</color>
+    <color name="letter_grey_deep_6">#FF666666</color>
+    <color name="letter_grey_deep_8">#FF8A8A8A</color>
+    <color name="letter_grey_deep_9">#FF999999</color>
+    <color name="letter_grey_deep_10">#FFA0A0A0</color>
+    <color name="letter_grey_deep_11">#FFB1B1B1</color>
+    <color name="letter_grey_deep_12">#FFBABABA</color>
+    <color name="letter_grey_deep_13">#FFC0C0C0</color>
+    <color name="letter_grey_deep_14">#FFD6D6D6</color>
+    <color name="letter_grey_deep_15">#FFE3E3E3</color>
+    <color name="letter_grey_deep_16">#FFF2F2F2</color>
+    <color name="letter_grey_deep_17">#FFF5F5F5</color>
+    <color name="letter_grey_deep_full">#FFFFFFFF</color>
+    <!-- 弹出框 -->
+    <color name="col_popwindow_bg">#FFF4F6F5</color>
+    <color name="col_popwindow_cancel_bg">#FF889098</color>
+</resources>

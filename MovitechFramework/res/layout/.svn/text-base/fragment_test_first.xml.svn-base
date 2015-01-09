@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.movitech.framework.views.BannerView
+        android:id="@+id/bv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp125" />
+    <com.movitech.framework.views.CountDownView
+        android:id="@+id/tv_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dp05"
+        android:layout_marginTop="@dimen/dp05" />
+    <EditText
+        android:id="@+id/edt_test_autohide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF00FF00"
+        android:contentDescription="@null"
+        android:scaleType="fitXY" />
+</LinearLayout>

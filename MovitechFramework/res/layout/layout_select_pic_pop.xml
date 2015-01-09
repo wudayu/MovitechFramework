@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/col_popwindow_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn_take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp46"
+            android:layout_marginLeft="@dimen/dp21"
+            android:layout_marginRight="@dimen/dp21"
+            android:layout_marginTop="@dimen/dp21"
+            android:background="@drawable/shape_round_grey_frame_white_bg"
+            android:text="@string/btn_take_photo"
+            android:textColor="@color/letter_grey_deep_4"
+            android:textSize="@dimen/px38" />
+        <Button
+            android:id="@+id/btn_pick_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp46"
+            android:layout_marginLeft="@dimen/dp21"
+            android:layout_marginRight="@dimen/dp21"
+            android:layout_marginTop="@dimen/dp07"
+            android:background="@drawable/shape_round_grey_frame_white_bg"
+            android:text="@string/btn_pick_photo"
+            android:textColor="@color/letter_grey_deep_4"
+            android:textSize="@dimen/px38" />
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp46"
+            android:layout_marginBottom="@dimen/dp19"
+            android:layout_marginLeft="@dimen/dp21"
+            android:layout_marginRight="@dimen/dp21"
+            android:layout_marginTop="@dimen/dp25"
+            android:background="@drawable/shape_popwindow_cancel_bg"
+            android:text="@string/btn_select_pic_cancel"
+            android:textColor="@color/letter_grey_deep_full"
+            android:textSize="@dimen/px38" />
+    </LinearLayout>
+</RelativeLayout>

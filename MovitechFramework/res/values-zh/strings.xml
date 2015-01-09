@@ -1,0 +1,25 @@
+<resources>
+    <!-- 常用 -->
+    <string name="app_name">Movitech Framework</string>
+    <!-- 系统 -->
+    <string name="str_double_close">再次点击后退键退出</string>
+    <!-- 工具 -->
+    <string name="error_can_not_find_sdcard">SD卡无效</string>
+    <!-- 图片弹出框 -->
+    <string name="btn_take_photo">拍照</string>
+    <string name="btn_pick_photo">选择照片</string>
+    <string name="btn_select_pic_cancel">取消</string>
+    <!-- 加载框 -->
+    <string name="str_loading">载入中&#8230;</string>
+    <!-- 主界面 -->
+    <string name="page_select_01">Fragment01</string>
+    <string name="page_select_02">Fragment02</string>
+    <string name="page_select_03">Fragment03</string>
+    <!-- 测试页面 -->
+    <string name="tv_test_activity_test">测试测试\n测试</string>
+    <!-- 错误信息 -->
+    <string name="error_cannot_connect_server">无法连接服务器，请检查您的网络</string>
+    <string name="error_data_format_wrong">服务器返回数据错误</string>
+    <string name="error_server_got_problems">服务其出错，请稍后再试</string>
+    <string name="error_unexpected_error">不可预料的错误发生</string>
+</resources>

@@ -1,0 +1,64 @@
+10
+
+dir
+2
+https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/res
+https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
+
+
+
+2015-01-09T02:05:23.878393Z
+1
+David.Wu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b3eb4bb-f496-954d-9593-800cfe0370cf
+
+values
+dir
+
+values-w360dp
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-xxhdpi
+dir
+
+anim
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+values-w400dp
+dir
+
+layout
+dir
+
+values-zh
+dir
+

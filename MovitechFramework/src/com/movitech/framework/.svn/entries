@@ -1,0 +1,98 @@
+10
+
+dir
+2
+https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/src/com/movitech/framework
+https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
+
+
+
+2015-01-09T02:37:26.862571Z
+2
+David.Wu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b3eb4bb-f496-954d-9593-800cfe0370cf
+
+adapter
+dir
+
+model
+dir
+
+service
+dir
+
+fragment
+dir
+
+receiver
+dir
+
+listener
+dir
+
+MainApp.java
+file
+3
+
+
+
+2015-01-09T07:43:50.000000Z
+347b02f7dfab596739da7fc0d9888ca3
+2015-01-09T07:34:14.403048Z
+3
+David.Wu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+844
+
+net
+dir
+
+constant
+dir
+
+activity
+dir
+
+generic
+dir
+
+handler
+dir
+
+views
+dir
+

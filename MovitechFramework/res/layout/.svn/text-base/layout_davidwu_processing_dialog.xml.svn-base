@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_processing_dialog_bg"
+    android:padding="@dimen/padding_processing_dialog" >
+    <ImageView
+        android:id="@+id/iv_processing"
+        android:layout_width="@dimen/side_processing_circle"
+        android:layout_height="@dimen/side_processing_circle"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null" />
+    <TextView
+        android:id="@+id/iv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_processing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_processing_dialog"
+        android:text="@string/str_loading"
+        android:textColor="@color/letter_grey_deep_full" />
+</RelativeLayout>

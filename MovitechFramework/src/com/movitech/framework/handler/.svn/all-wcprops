@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android-Team/!svn/ver/1/MovitechFramework/src/com/movitech/framework/handler
+END
+IFileHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/handler/IFileHandler.java
+END
+IImageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/handler/IImageHandler.java
+END
+UILImageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/handler/UILImageHandler.java
+END
+FileHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/handler/FileHandler.java
+END
