@@ -18,6 +18,8 @@
 		MainActivity是项目的真正主界面当所有数据加载完成后，用户看到的就是这个页面。他包括了一个ViewPager和一个PageSelectBar。
 ####TestActivity
 		TestActivity用来测试某些功能。
+####TradingResultActivity
+		TradingResultActivity是微信支付的回调类在回调之后所前往的页面。
 
 2. ###com.movitech.framework.adapter
 ####MainActivityPageAdapter
@@ -32,6 +34,8 @@
 		Constant包含了应用程序中的一些重要的Flags。
 ####ImageLoaderHelper
 		ImageLoaderHelper是ImageLoader的帮助类，它通过拼接Schema来帮助ImageLoader来定位图片资源。
+####PayMode
+		PayMode是用来标记使用的是微信支付还是支付宝支付等其他方式。
 ####ReqCode
 		ReqCode包含了应用中所有的RequestCode和ResultCode，这些用在Activity间通信的Code需要在此定义。
 ####Timeout
@@ -60,6 +64,10 @@
 		IImageHandler是图片处理者的接口类。
 ####UILImageHandler
 		UILImageHander是使用了Universal Image Loader来控制图片的单例类，它可以加载普通图片，加载圆角图片，加载圆形图片以及选择图片来源，对图片进行切割处理等功能。
+####IWechatHandler
+		IWechatHandler是微信操作的接口类。
+####WechatHandler
+		WechatHandler是包含了对微信操作的一系列工具，目前只包含微信支付部分。
 		
 7. ###com.movitech.framework.listener
 ####BannerViewOnItemClickListener
@@ -127,13 +135,17 @@
 ####SlideBarBaseView
 		SlideBarBaseView是用来在数据中有一系列字母开头的情况下通过滑动选择响应字母数据的控件，一般位于屏幕右侧。
 ####SwitchViewPager
-		SwitchViewPager是可以自动滚动的ViewPager。  
+		SwitchViewPager是可以自动滚动的ViewPager。   
 
-13. ###com.movitech.framework
+13. ###com.movitech.wxapi 
+####WXPayEntryActivity
+		WXPayEntryActivity是微信的回调类，在微信执行完一定任务后，就会调用此类相关方法。
+
+14. ###com.movitech.framework
 ####MainApp
 		MainApp是整个项目使用的Application，其中初始化了一些操作，如果有需要也可以添加一些全局变量。
   
 ## Need to do
-1.Wechat Pay Support --> **David Wu** is on researching  
+1.Wechat Pay Support --> **David Wu** has finished this task.  
 2.Push Service Support --> **David Wu** is on researching  
 3.Local DataBase Support

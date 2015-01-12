@@ -6,7 +6,7 @@ package com.movitech.framework.constant;
  * @En_Name: David Wu
  * @E-mail: wudayu@gmail.com
  * @Created Time: Jan 12, 2015, 10:39:24 AM
- * @Description: 使用的支付方式
+ * @Description: PayMode是用来标记使用的是微信支付还是支付宝支付等其他方式
  *
  **/
 

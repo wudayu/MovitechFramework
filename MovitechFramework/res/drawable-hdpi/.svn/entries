@@ -1,14 +1,14 @@
 10
 
 dir
-5
+7
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/res/drawable-hdpi
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T02:05:23.878393Z
-1
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -366,40 +366,6 @@ has-props
 
 15912
 
-page_select_01_on.png
-file
-
-
-
-
-2014-12-09T09:42:06.000000Z
-57fff4688f22ffacfd7364e89b91b207
-2015-01-09T02:05:23.878393Z
-1
-David.Wu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17719
-
 page_select_03_off.png
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 16046
+
+page_select_01_on.png
+file
+
+
+
+
+2014-12-09T09:42:06.000000Z
+57fff4688f22ffacfd7364e89b91b207
+2015-01-09T02:05:23.878393Z
+1
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17719
 
 page_select_02_on.png
 file
@@ -538,7 +538,7 @@ has-props
 
 pay_success.png
 file
-7
+
 
 
 
@@ -572,7 +572,7 @@ has-props
 
 pay_fail.png
 file
-7
+
 
 
 
@@ -606,7 +606,7 @@ has-props
 
 back_in_white.png
 file
-7
+
 
 
 

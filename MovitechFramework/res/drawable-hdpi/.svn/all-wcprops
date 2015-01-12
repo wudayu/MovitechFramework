@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi
+/svn/Android-Team/!svn/ver/7/MovitechFramework/res/drawable-hdpi
 END
 processing_circle_01.png
 K 25
@@ -63,17 +63,17 @@ svn:wc:ra_dav:version-url
 V 87
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_02_off.png
 END
-page_select_01_on.png
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_01_on.png
-END
 page_select_03_off.png
 K 25
 svn:wc:ra_dav:version-url
 V 87
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_03_off.png
+END
+page_select_01_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_01_on.png
 END
 page_select_02_on.png
 K 25

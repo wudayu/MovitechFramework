@@ -5,7 +5,7 @@ V 27
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/Android-Team/!svn/ver/6/MovitechFramework
+/svn/Android-Team/!svn/ver/7/MovitechFramework
 END
 project.properties
 K 25
@@ -41,5 +41,5 @@ README.md
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/Android-Team/!svn/ver/3/MovitechFramework/README.md
+/svn/Android-Team/!svn/ver/8/MovitechFramework/README.md
 END

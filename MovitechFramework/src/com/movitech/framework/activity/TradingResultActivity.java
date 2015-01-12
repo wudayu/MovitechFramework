@@ -18,7 +18,7 @@ import com.movitech.framework.net.RetrofitNetHandler;
  * @En_Name: David Wu
  * @E-mail: wudayu@gmail.com
  * @Created Time: Jan 12, 2015, 10:43:01 AM
- * @Description: David Wu created this file.
+ * @Description: TradingResultActivity是微信支付的回调类在回调之后所前往的页面
  *
  **/
 

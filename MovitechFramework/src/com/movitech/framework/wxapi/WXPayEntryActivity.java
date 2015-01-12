@@ -23,7 +23,7 @@ import com.tencent.mm.sdk.openapi.WXAPIFactory;
  * @En_Name: David Wu
  * @E-mail: wudayu@gmail.com
  * @Created Time: Jan 9, 2015, 4:25:05 PM
- * @Description: 这是微信支付的回调类
+ * @Description: XPayEntryActivity是微信的回调类，在微信执行完一定任务后，就会调用此类相关方法
  *
  **/
 

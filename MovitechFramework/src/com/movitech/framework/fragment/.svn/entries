@@ -1,14 +1,14 @@
 10
 
 dir
-5
+7
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/src/com/movitech/framework/fragment
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T07:34:14.403048Z
-3
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -28,7 +28,7 @@ David.Wu
 
 TestSecondFragment.java
 file
-7
+
 
 
 
@@ -62,7 +62,7 @@ David.Wu
 
 TestFirstFragment.java
 file
-7
+
 
 
 
@@ -96,7 +96,7 @@ David.Wu
 
 BaseFragment.java
 file
-7
+
 
 
 
@@ -130,7 +130,7 @@ David.Wu
 
 TestThirdFragment.java
 file
-7
+
 
 
 

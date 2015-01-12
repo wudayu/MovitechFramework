@@ -1,4 +1,4 @@
-package com.movitech.framework.generic;
+package com.movitech.framework.handler;
 
 import android.content.Context;
 
@@ -13,11 +13,11 @@ import com.tencent.mm.sdk.openapi.WXAPIFactory;
  * @En_Name: David Wu
  * @E-mail: wudayu@gmail.com
  * @Created Time: Jan 12, 2015, 9:46:09 AM
- * @Description: David Wu created this file.
+ * @Description: WechatHandler是包含了对微信操作的一系列工具，目前只包含微信支付部分.
  *
  **/
 
-public class WechatHandler {
+public class WechatHandler implements IWechatHandler {
 
 	/** Generate Singleton */
 	private static final WechatHandler instance = new WechatHandler();
@@ -32,7 +32,8 @@ public class WechatHandler {
 		return instance;
 	}
 
-	/** 链接微信支付 耗时操作 */
+	/** 链接并启动微信支付 耗时操作 */
+	@Override
 	public boolean connectWechatPay(String appId, String partnerId, String prepayId, String noncestr, String timeStamp, String sign) {
 		PayReq req = new PayReq();
 		req.appId = appId;
