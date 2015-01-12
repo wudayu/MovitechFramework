@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_app_grey"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp44"
+        android:background="@color/col_app" >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/dp44"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp05"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/back_in_white"
+            android:visibility="gone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tv_pay_note"
+            android:textColor="@color/letter_grey_deep_full"
+            android:textSize="@dimen/px40" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_success"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp125"
+        android:background="@color/transparent_white_100_100"
+        android:gravity="center" >
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pay_success"
+            android:drawablePadding="@dimen/dp10"
+            android:gravity="center_vertical"
+            android:text="@string/tv_order_pay_success"
+            android:textColor="@color/bg_rl_checkin"
+            android:textSize="@dimen/px48" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_fail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp125"
+        android:background="@color/transparent_white_100_100"
+        android:gravity="center"
+        android:visibility="gone" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pay_fail"
+            android:drawablePadding="@dimen/dp10"
+            android:gravity="center_vertical"
+            android:text="@string/tv_order_pay_fail"
+            android:textColor="@color/letter_grey_deep_6"
+            android:textSize="@dimen/px48" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/letter_grey_deep_14" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp45"
+        android:background="@color/transparent_white_100_100"
+        android:gravity="center" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_order_pay_title"
+            android:textColor="@color/letter_grey_deep_9"
+            android:textSize="@dimen/px24" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/letter_grey_deep_14" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp15"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/btn_my_order"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="@dimen/dp44"
+            android:layout_marginRight="@dimen/dp10"
+            android:background="@drawable/shape_btn_settlement"
+            android:gravity="center"
+            android:text="@string/tv_my_order"
+            android:textColor="@color/letter_grey_deep_full"
+            android:textSize="@dimen/px30" />
+        <Button
+            android:id="@+id/btn_purchase"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="@dimen/dp44"
+            android:layout_marginLeft="@dimen/dp10"
+            android:background="@drawable/shape_btn_settlement"
+            android:gravity="center"
+            android:text="@string/tv_continue_purchase"
+            android:textColor="@color/letter_grey_deep_full"
+            android:textSize="@dimen/px30" />
+    </LinearLayout>
+</LinearLayout>
