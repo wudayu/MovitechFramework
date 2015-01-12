@@ -39,6 +39,12 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/Android-Team/!svn/ver/1/MovitechFramework/libs/jackson-core-2.2.3.jar
 END
+wechat_libammsdk.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Android-Team/!svn/ver/4/MovitechFramework/libs/wechat_libammsdk.jar
+END
 retrofit-1.8.0.jar
 K 25
 svn:wc:ra_dav:version-url

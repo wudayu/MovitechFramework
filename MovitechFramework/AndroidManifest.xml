@@ -18,13 +18,13 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
     <application
-        android:name="com.movitech.framework.MainApp"
+        android:name=".MainApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <service android:name="com.movitech.framework.service.PushService" />
-        <receiver android:name="com.movitech.framework.receiver.PushReceiver" >
+        <service android:name=".service.PushService" />
+        <receiver android:name=".receiver.PushReceiver" >
             <intent-filter android:priority="1048575" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.SCREEN_ON" />
@@ -36,7 +36,7 @@
             </intent-filter>
         </receiver>
         <activity
-            android:name="com.movitech.framework.activity.MainActivity"
+            android:name=".activity.MainActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" >
@@ -46,9 +46,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.movitech.framework.activity.TestActivity"
+            android:name=".activity.TestActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
     </application>
 </manifest>

@@ -28,4 +28,6 @@ public class Constant {
 	/** 推送Service开关 */
 	public static final boolean needPush = false;
 
+	/** 微信支付 */
+	public static final String WX_APP_ID = "";
 }
