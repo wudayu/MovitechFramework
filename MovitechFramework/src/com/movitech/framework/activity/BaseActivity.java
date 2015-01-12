@@ -32,7 +32,7 @@ public abstract class BaseActivity extends FragmentActivity {
 	/** 初始化控件 */
 	protected abstract void initComponents();
 	/** 初始化事件 */
-	protected abstract void initEvent();
+	protected abstract void initEvents();
 	/** 初始化数据 */
 	protected abstract void initData();
 	/** 在一切初始化结束后的程序入口 */
@@ -45,7 +45,7 @@ public abstract class BaseActivity extends FragmentActivity {
 
 		initContainer();
 		initComponents();
-		initEvent();
+		initEvents();
 		initData();
 		afterAllSet();
 

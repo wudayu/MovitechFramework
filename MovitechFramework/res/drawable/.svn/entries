@@ -1,7 +1,7 @@
 10
 
 dir
-2
+5
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/res/drawable
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
@@ -93,6 +93,40 @@ David.Wu
 
 
 230
+
+shape_btn_settlement.xml
+file
+7
+
+
+
+2015-01-12T02:14:11.000000Z
+606272186cafbf10c885ec77be834b2d
+2015-01-12T02:44:25.856967Z
+7
+David.Wu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+749
 
 processing_dialog_animation.xml
 file

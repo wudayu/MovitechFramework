@@ -1,7 +1,7 @@
 10
 
 dir
-2
+5
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/res/values
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
@@ -28,14 +28,14 @@ David.Wu
 
 colors.xml
 file
+7
 
 
 
-
-2014-12-09T09:42:06.000000Z
-7368e6da53e3747e1958bef7b58a6ee2
-2015-01-09T02:05:23.878393Z
-1
+2015-01-12T02:29:02.000000Z
+219c4c605dd755ffb38b1be402f704dc
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -58,7 +58,7 @@ David.Wu
 
 
 
-1759
+1841
 
 styles.xml
 file

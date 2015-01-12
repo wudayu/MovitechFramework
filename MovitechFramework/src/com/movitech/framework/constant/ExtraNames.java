@@ -14,4 +14,10 @@ public class ExtraNames {
 
 	public static final String PUSH_TYPE = "PushType";
 
+	public static final String IS_PAY_SUCCESSED = "IsPaySucceded";
+
+	public static final String PAY_NUM = "PayNum";
+
+	public static final String PAY_MODE = "PayMode";
+
 }

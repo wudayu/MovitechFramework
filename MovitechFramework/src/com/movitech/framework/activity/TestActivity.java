@@ -39,7 +39,7 @@ public class TestActivity extends BaseActivity {
 	}
 
 	@Override
-	protected void initEvent() {
+	protected void initEvents() {
 	}
 
 	@Override

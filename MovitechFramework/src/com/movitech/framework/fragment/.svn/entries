@@ -1,14 +1,14 @@
 10
 
 dir
-2
+5
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/src/com/movitech/framework/fragment
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T02:05:23.878393Z
-1
+2015-01-09T07:34:14.403048Z
+3
 David.Wu
 
 
@@ -28,14 +28,14 @@ David.Wu
 
 TestSecondFragment.java
 file
-3
+7
 
 
 
-2015-01-09T05:53:59.000000Z
-d2c462ee2d79a2b20fb06daf57db1d91
-2015-01-09T07:34:14.403048Z
-3
+2015-01-12T01:35:49.000000Z
+a838fb5a549d33044ea8cc322eb03f2f
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -58,18 +58,18 @@ David.Wu
 
 
 
-3557
+3558
 
 TestFirstFragment.java
 file
-3
+7
 
 
 
-2015-01-09T05:53:44.000000Z
-4cfd5505a89196c0dc1fe0996e67d981
-2015-01-09T07:34:14.403048Z
-3
+2015-01-12T01:35:49.000000Z
+27271044cc3d891df5d0216e8a7df66b
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -92,18 +92,18 @@ David.Wu
 
 
 
-5256
+5257
 
 BaseFragment.java
 file
-3
+7
 
 
 
-2015-01-09T06:09:46.000000Z
-50b920245c618f11d6654eca5fd31128
-2015-01-09T07:34:14.403048Z
-3
+2015-01-12T01:35:49.000000Z
+7a17a8509cacbebd878c07387cb05d6c
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -126,18 +126,18 @@ David.Wu
 
 
 
-1512
+1514
 
 TestThirdFragment.java
 file
-3
+7
 
 
 
-2015-01-09T05:54:08.000000Z
-755a4459593b64223a0547b881927922
-2015-01-09T07:34:14.403048Z
-3
+2015-01-12T01:35:49.000000Z
+9f2ec19b397cb1104b4d56cbb27ffd00
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -160,5 +160,5 @@ David.Wu
 
 
 
-4880
+4881
 

@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 
-import com.movitech.framework.MainApp;
 import com.movitech.framework.R;
 import com.movitech.framework.adapter.MainActivityPageAdapter;
 import com.movitech.framework.constant.Constant;
@@ -33,8 +32,6 @@ import com.movitech.framework.views.SwitchViewPager;
 public class MainActivity extends BaseActivity {
 
 	private static final int PAGE_COUNT = 3;
-
-	MainApp mApp = null;
 
 	SwitchViewPager vpMain = null;
 	PageSelectBar psbMain = null;
@@ -71,7 +68,7 @@ public class MainActivity extends BaseActivity {
 	}
 
 	@Override
-	protected void initEvent() {
+	protected void initEvents() {
 		vpMain.setOnPageChangeListener(new OnPageChangeListener() {
 			@Override
 			public void onPageSelected(int pos) {

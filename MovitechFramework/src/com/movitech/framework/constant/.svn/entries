@@ -1,14 +1,14 @@
 10
 
 dir
-2
+5
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/src/com/movitech/framework/constant
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T02:37:26.862571Z
-2
+2015-01-09T08:37:32.682119Z
+5
 David.Wu
 
 
@@ -164,14 +164,14 @@ David.Wu
 
 ExtraNames.java
 file
+7
 
 
 
-
-2015-01-06T07:59:09.000000Z
-40e32c10b0c6282f2b815b667545a562
-2015-01-09T02:05:23.878393Z
-1
+2015-01-12T02:38:29.000000Z
+f9debadae0bf4c26f71b9fb7ee235be4
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -194,18 +194,18 @@ David.Wu
 
 
 
-303
+468
 
 Constant.java
 file
-5
+7
 
 
 
-2015-01-09T08:41:00.000000Z
-8ac31d5e1ec3788edde05196cc4c1f98
-2015-01-09T08:37:32.682119Z
-5
+2015-01-12T02:39:16.000000Z
+237a6b41e39704af0a4ab24a07594caf
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -228,7 +228,7 @@ David.Wu
 
 
 
-841
+842
 
 ImageLoaderHelper.java
 file
@@ -263,4 +263,38 @@ David.Wu
 
 
 916
+
+PayMode.java
+file
+7
+
+
+
+2015-01-12T02:54:06.000000Z
+3c3b3ba700398583a9e3861ecb292d6a
+2015-01-12T02:44:25.856967Z
+7
+David.Wu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+384
 

@@ -17,6 +17,13 @@
     <string name="page_select_03">Fragment03</string>
     <!-- 测试页面 -->
     <string name="tv_test_activity_test">测试测试\n测试</string>
+    <!-- 交易结果页面 -->
+    <string name="tv_pay_note">支付提示</string>
+    <string name="tv_order_pay_success">订单支付成功</string>
+    <string name="tv_order_pay_fail">订单支付失败</string>
+    <string name="tv_my_order">查看订单</string>
+    <string name="tv_continue_purchase">继续团购</string>
+    <string name="tv_order_pay_title">你可以进入订单管理查看订单状态</string>
     <!-- 错误信息 -->
     <string name="error_cannot_connect_server">无法连接服务器，请检查您的网络</string>
     <string name="error_data_format_wrong">服务器返回数据错误</string>

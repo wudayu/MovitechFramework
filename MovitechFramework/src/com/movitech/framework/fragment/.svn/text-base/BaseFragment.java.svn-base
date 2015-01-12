@@ -26,7 +26,7 @@ public abstract class BaseFragment extends Fragment {
 
 	protected abstract View initContainer(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState);
 	protected abstract void initComponents(View fragView);
-	protected abstract void initEvent();
+	protected abstract void initEvents();
 	protected abstract void initData();
 	protected abstract void afterAllSet();
 
@@ -42,7 +42,7 @@ public abstract class BaseFragment extends Fragment {
 		View fragView = initContainer(inflater, container, savedInstanceState);
 
 		initComponents(fragView);
-		initEvent();
+		initEvents();
 		initData();
 		afterAllSet();
 

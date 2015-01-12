@@ -30,4 +30,5 @@ public class Constant {
 
 	/** 微信支付 */
 	public static final String WX_APP_ID = "";
+
 }

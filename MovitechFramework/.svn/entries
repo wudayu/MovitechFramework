@@ -1,17 +1,17 @@
 10
 
 dir
-2
+6
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T02:37:26.862571Z
-2
+2015-01-12T01:11:50.078809Z
+6
 David.Wu
 has-props
-has-prop-mods
+
 
 
 
@@ -28,7 +28,7 @@ has-prop-mods
 
 project.properties
 file
-
+5
 
 
 
@@ -65,7 +65,7 @@ dir
 
 lint.xml
 file
-
+5
 
 
 
@@ -99,7 +99,7 @@ David.Wu
 
 proguard-project.txt
 file
-
+5
 
 
 
@@ -133,14 +133,14 @@ David.Wu
 
 AndroidManifest.xml
 file
+7
 
 
 
-
-2015-01-06T06:50:13.000000Z
-cc03393dbe1a42e9057e4e95a3672fba
-2015-01-09T02:05:23.878393Z
-1
+2015-01-12T02:51:50.000000Z
+04208586f4964d54aaf90784c329eb71
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -163,7 +163,7 @@ David.Wu
 
 
 
-2995
+3290
 
 src
 dir
@@ -176,7 +176,7 @@ dir
 
 ic_launcher-web.png
 file
-
+5
 
 
 
@@ -210,7 +210,7 @@ has-props
 
 README.md
 file
-3
+5
 
 
 

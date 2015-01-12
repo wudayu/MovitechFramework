@@ -28,6 +28,8 @@
     <color name="letter_grey_deep_16">#FFF2F2F2</color>
     <color name="letter_grey_deep_17">#FFF5F5F5</color>
     <color name="letter_grey_deep_full">#FFFFFFFF</color>
+    <!-- 交易结果页面 -->
+    <color name="bg_rl_checkin">#FFFAA701</color>
     <!-- 弹出框 -->
     <color name="col_popwindow_bg">#FFF4F6F5</color>
     <color name="col_popwindow_cancel_bg">#FF889098</color>

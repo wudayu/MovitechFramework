@@ -15,6 +15,12 @@ svn:wc:ra_dav:version-url
 V 90
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable/shape_processing_dialog_bg.xml
 END
+shape_btn_settlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android-Team/!svn/ver/7/MovitechFramework/res/drawable/shape_btn_settlement.xml
+END
 processing_dialog_animation.xml
 K 25
 svn:wc:ra_dav:version-url

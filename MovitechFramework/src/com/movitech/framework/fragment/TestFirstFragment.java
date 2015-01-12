@@ -57,7 +57,7 @@ public class TestFirstFragment extends BaseFragment {
 	}
 
 	@Override
-	protected void initEvent() {
+	protected void initEvents() {
 		ivTest.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {

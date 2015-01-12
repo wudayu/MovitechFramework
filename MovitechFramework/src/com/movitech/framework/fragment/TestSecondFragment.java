@@ -50,7 +50,7 @@ public class TestSecondFragment extends BaseFragment {
 	}
 
 	@Override
-	protected void initEvent() {
+	protected void initEvents() {
 		tvWeather.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {

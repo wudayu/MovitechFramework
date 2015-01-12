@@ -63,17 +63,17 @@ svn:wc:ra_dav:version-url
 V 87
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_02_off.png
 END
-page_select_03_off.png
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_03_off.png
-END
 page_select_01_on.png
 K 25
 svn:wc:ra_dav:version-url
 V 86
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_01_on.png
+END
+page_select_03_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/page_select_03_off.png
 END
 page_select_02_on.png
 K 25
@@ -92,4 +92,22 @@ K 25
 svn:wc:ra_dav:version-url
 V 80
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/drawable-hdpi/ic_launcher.png
+END
+pay_success.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android-Team/!svn/ver/7/MovitechFramework/res/drawable-hdpi/pay_success.png
+END
+pay_fail.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Android-Team/!svn/ver/7/MovitechFramework/res/drawable-hdpi/pay_fail.png
+END
+back_in_white.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android-Team/!svn/ver/7/MovitechFramework/res/drawable-hdpi/back_in_white.png
 END

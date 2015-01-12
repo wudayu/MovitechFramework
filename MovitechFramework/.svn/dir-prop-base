@@ -1,9 +1,10 @@
 K 10
 svn:ignore
-V 28
+V 33
 .classpath
 .project
 bin
 gen
+.git
 
 END

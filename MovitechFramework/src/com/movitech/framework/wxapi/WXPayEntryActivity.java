@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.movitech.framework.activity.BaseActivity;
+import com.movitech.framework.activity.TradingResultActivity;
 import com.movitech.framework.constant.Constant;
+import com.movitech.framework.constant.ExtraNames;
+import com.movitech.framework.constant.PayMode;
 import com.movitech.framework.generic.Utils;
 import com.tencent.mm.sdk.constants.ConstantsAPI;
 import com.tencent.mm.sdk.modelbase.BaseReq;
@@ -97,20 +100,20 @@ public class WXPayEntryActivity extends BaseActivity implements IWXAPIEventHandl
 	/** 成功处理方法 */
 	private void paySuccess() {
 		closePayOrder();
-//		Intent intent = new Intent(this, TradingResultActivity_.class);
-//		intent.putExtra(ExtraNames.IS_PAY_SUCCESSED, true);
-//		intent.putExtra(ExtraNames.PAY_NUM, payResp.prepayId);//微信服务器返回 订单ID
-//		intent.putExtra(ExtraNames.PAY_MODE, PayMode.WEI_XIN);
-//		startActivity(intent);
+		Intent intent = new Intent(this, TradingResultActivity.class);
+		intent.putExtra(ExtraNames.IS_PAY_SUCCESSED, true);
+		intent.putExtra(ExtraNames.PAY_NUM, payResp.prepayId);	//微信服务器返回 订单ID
+		intent.putExtra(ExtraNames.PAY_MODE, PayMode.WEI_XIN);
+		startActivity(intent);
 		this.finish();
 	}
 
 	/** 失败处理方法 */
 	private void payFail() {
 		closePayOrder();
-//		Intent intent = new Intent(this, TradingResultActivity_.class);
-//		intent.putExtra(ExtraNames.IS_PAY_SUCCESSED, false);
-//		startActivity(intent);
+		Intent intent = new Intent(this, TradingResultActivity.class);
+		intent.putExtra(ExtraNames.IS_PAY_SUCCESSED, false);
+		startActivity(intent);
 		this.finish();
 	}
 
@@ -128,7 +131,7 @@ public class WXPayEntryActivity extends BaseActivity implements IWXAPIEventHandl
 	}
 
 	@Override
-	protected void initEvent() {
+	protected void initEvents() {
 	}
 
 	@Override

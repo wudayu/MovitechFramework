@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/svn/Android-Team/!svn/ver/2/MovitechFramework/src/com/movitech/framework/constant
+/svn/Android-Team/!svn/ver/5/MovitechFramework/src/com/movitech/framework/constant
 END
 ReqCode.java
 K 25
@@ -31,17 +31,23 @@ ExtraNames.java
 K 25
 svn:wc:ra_dav:version-url
 V 98
-/svn/Android-Team/!svn/ver/1/MovitechFramework/src/com/movitech/framework/constant/ExtraNames.java
+/svn/Android-Team/!svn/ver/7/MovitechFramework/src/com/movitech/framework/constant/ExtraNames.java
 END
 Constant.java
 K 25
 svn:wc:ra_dav:version-url
 V 96
-/svn/Android-Team/!svn/ver/5/MovitechFramework/src/com/movitech/framework/constant/Constant.java
+/svn/Android-Team/!svn/ver/7/MovitechFramework/src/com/movitech/framework/constant/Constant.java
 END
 ImageLoaderHelper.java
 K 25
 svn:wc:ra_dav:version-url
 V 105
 /svn/Android-Team/!svn/ver/2/MovitechFramework/src/com/movitech/framework/constant/ImageLoaderHelper.java
+END
+PayMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android-Team/!svn/ver/7/MovitechFramework/src/com/movitech/framework/constant/PayMode.java
 END

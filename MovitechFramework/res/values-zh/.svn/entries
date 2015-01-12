@@ -1,7 +1,7 @@
 10
 
 dir
-2
+5
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/res/values-zh
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
@@ -28,14 +28,14 @@ David.Wu
 
 strings.xml
 file
+7
 
 
 
-
-2015-01-06T07:15:49.000000Z
-b635d041e2c1015a3271f446bf194e71
-2015-01-09T02:05:23.878393Z
-1
+2015-01-12T02:30:17.000000Z
+83a231ea8bcd44609deaf3cb6bae514b
+2015-01-12T02:44:25.856967Z
+7
 David.Wu
 
 
@@ -58,5 +58,5 @@ David.Wu
 
 
 
-1208
+1634
 

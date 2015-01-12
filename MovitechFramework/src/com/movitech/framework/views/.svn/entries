@@ -1,14 +1,14 @@
 10
 
 dir
-2
+5
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/src/com/movitech/framework/views
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T02:05:23.878393Z
-1
+2015-01-09T07:34:14.403048Z
+3
 David.Wu
 
 
@@ -28,7 +28,7 @@ David.Wu
 
 BannerView.java
 file
-3
+
 
 
 
@@ -62,7 +62,7 @@ David.Wu
 
 DotPageIndicator.java
 file
-3
+
 
 
 
@@ -96,7 +96,7 @@ David.Wu
 
 PageSelectBar.java
 file
-3
+
 
 
 
@@ -130,7 +130,7 @@ David.Wu
 
 BaseViewPager.java
 file
-3
+
 
 
 
@@ -167,7 +167,7 @@ dir
 
 NoSlideViewPager.java
 file
-3
+
 
 
 
@@ -201,7 +201,7 @@ David.Wu
 
 SelectPicPopupWindow.java
 file
-3
+
 
 
 
@@ -235,7 +235,7 @@ David.Wu
 
 PageIndicator.java
 file
-3
+
 
 
 
@@ -269,7 +269,7 @@ David.Wu
 
 CountDownView.java
 file
-3
+
 
 
 
@@ -303,7 +303,7 @@ David.Wu
 
 SlideBarBaseView.java
 file
-3
+
 
 
 
@@ -337,7 +337,7 @@ David.Wu
 
 SwitchViewPager.java
 file
-3
+
 
 
 
@@ -371,7 +371,7 @@ David.Wu
 
 ProcessingDialog.java
 file
-3
+
 
 
 

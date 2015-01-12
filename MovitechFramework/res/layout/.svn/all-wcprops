@@ -9,6 +9,12 @@ svn:wc:ra_dav:version-url
 V 75
 /svn/Android-Team/!svn/ver/1/MovitechFramework/res/layout/activity_main.xml
 END
+activity_trading_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android-Team/!svn/ver/7/MovitechFramework/res/layout/activity_trading_result.xml
+END
 layout_select_pic_pop.xml
 K 25
 svn:wc:ra_dav:version-url
