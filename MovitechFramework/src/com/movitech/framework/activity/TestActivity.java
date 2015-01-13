@@ -5,6 +5,8 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 import android.widget.TextView;
 
+import cn.jpush.android.api.JPushInterface;
+
 import com.movitech.framework.R;
 import com.movitech.framework.constant.WeatherCityCode;
 import com.movitech.framework.generic.Utils;
@@ -24,6 +26,8 @@ import com.movitech.framework.views.ProcessingDialog;
  **/
 
 public class TestActivity extends BaseActivity {
+
+	public static boolean isForeground = false;
 
 	TextView tvTest = null;
 	INetHandler netHandler = RetrofitNetHandler.getInstance();
@@ -64,4 +68,21 @@ public class TestActivity extends BaseActivity {
 			}
 		});
 	}
+
+	@Override
+	protected void onResume() {
+		isForeground = true;
+		JPushInterface.onResume(this);
+
+		super.onResume();
+	}
+
+	@Override
+	protected void onPause() {
+		isForeground = false;
+		JPushInterface.onPause(this);
+
+		super.onPause();
+	}
+
 }
