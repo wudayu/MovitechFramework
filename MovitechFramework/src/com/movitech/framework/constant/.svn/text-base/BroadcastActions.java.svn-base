@@ -17,4 +17,7 @@ public class BroadcastActions {
 	/** 关闭所有Activity */
 	public static final String FINISH_ACTIVITY = PKG + "finish_activity";
 
+	/** JPush获取消息的Action */
+	public static final String JPUSH_MESSAGE_RECEIVED = PKG + "jpush_message_received";
+
 }

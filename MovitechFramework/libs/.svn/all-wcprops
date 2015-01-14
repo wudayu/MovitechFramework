@@ -21,6 +21,12 @@ svn:wc:ra_dav:version-url
 V 105
 /svn/Android-Team/!svn/ver/1/MovitechFramework/libs/spring-android-rest-template-1.0.2.BUILD-SNAPSHOT.jar
 END
+jpush-sdk-release1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android-Team/!svn/ver/10/MovitechFramework/libs/jpush-sdk-release1.7.1.jar
+END
 jackson-databind-2.2.3.jar
 K 25
 svn:wc:ra_dav:version-url

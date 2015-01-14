@@ -1,10 +1,12 @@
 package com.movitech.framework;
 
 import android.app.Application;
+import cn.jpush.android.api.JPushInterface;
 
-import com.nostra13.universalimageloader.utils.L;
+import com.movitech.framework.constant.Constant;
 import com.movitech.framework.handler.IImageHandler;
 import com.movitech.framework.handler.UILImageHandler;
+import com.nostra13.universalimageloader.utils.L;
 
 /**
  *
@@ -25,6 +27,7 @@ public class MainApp extends Application {
 		super.onCreate();
 
 		initUIL();
+		initJPush();
 	}
 
 	/**
@@ -35,6 +38,14 @@ public class MainApp extends Application {
 		imageHandler.initImageLoader();
 
 		L.writeLogs(false);
+	}
+
+	/**
+	 * 初始化 JPush
+	 */
+	private void initJPush() {
+		JPushInterface.setDebugMode(Constant.DEBUG);
+        JPushInterface.init(this);
 	}
 
 }

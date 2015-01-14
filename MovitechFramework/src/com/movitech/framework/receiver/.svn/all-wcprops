@@ -9,3 +9,9 @@ svn:wc:ra_dav:version-url
 V 100
 /svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/receiver/PushReceiver.java
 END
+JPushReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android-Team/!svn/ver/10/MovitechFramework/src/com/movitech/framework/receiver/JPushReceiver.java
+END

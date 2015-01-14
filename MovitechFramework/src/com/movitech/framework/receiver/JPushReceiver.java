@@ -87,7 +87,7 @@ public class JPushReceiver extends BroadcastReceiver {
 		return sb.toString();
 	}
 	
-	//send msg to MainActivity
+	// send msg to MainActivity
 	private void processCustomMessage(Context context, Bundle bundle) {
 		if (TestActivity.isForeground) {
 			String message = bundle.getString(JPushInterface.EXTRA_MESSAGE);
