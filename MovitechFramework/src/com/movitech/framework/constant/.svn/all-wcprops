@@ -21,12 +21,6 @@ svn:wc:ra_dav:version-url
 V 103
 /svn/Android-Team/!svn/ver/2/MovitechFramework/src/com/movitech/framework/constant/WeatherCityCode.java
 END
-JPushKeys.java
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/Android-Team/!svn/ver/10/MovitechFramework/src/com/movitech/framework/constant/JPushKeys.java
-END
 Timeout.java
 K 25
 svn:wc:ra_dav:version-url
