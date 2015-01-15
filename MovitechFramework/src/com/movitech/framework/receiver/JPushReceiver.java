@@ -49,7 +49,7 @@ public class JPushReceiver extends BroadcastReceiver {
         	int notifactionId = bundle.getInt(JPushInterface.EXTRA_NOTIFICATION_ID);
             Utils.debug("[JPush] 接收到 推送通知 广播; 通知ID = " + notifactionId);
         } else if (JPushInterface.ACTION_NOTIFICATION_OPENED.equals(intent.getAction())) {
-        	// 当接收到 用户点开通知 广播时，与
+        	// 当接收到 用户点开通知 广播时，与JPushLocalNotification一起使用
             Utils.debug("[JPush] 接收到 用户点击通知 广播;");
 
             /** 打开相应的Activity **/
@@ -85,87 +85,21 @@ public class JPushReceiver extends BroadcastReceiver {
 
 	/** 发送自定义消息到TestActivity */
 	private void processCustomMessage(Context context, Bundle bundle) {
-		/*
-		String title = bundle.getString(JPushInterface.EXTRA_TITLE);
-		String message = bundle.getString(JPushInterface.EXTRA_MESSAGE);
-		if (TextUtils.isEmpty(title)) {
-			Utils.debug("Unexpected: empty title (friend). Give up");
-			return;
-		}
-
-		boolean needIncreaseUnread = true;
-
-		if (title.equalsIgnoreCase("test")) {
-			Utils.debug("Message from myself. Give up");
-			needIncreaseUnread = false;
-			if (!Constant.DEBUG) {
-				return;
-			}
-		}
-
-		String channel = null;
-		String extras = bundle.getString(JPushInterface.EXTRA_EXTRA);
-		try {
-			JSONObject extrasJson = new JSONObject(extras);
-			channel = extrasJson.optString("KEY_CHANNEL");
-		} catch (Exception e) {
-			Utils.debug("Unexpected: extras is not a valid json");
-		}
-
-		// Send message to UI (Webview) only when UI is up 
-		if (TestActivity.isForeground) {
-			Intent msgIntent = new Intent(MainActivity.MESSAGE_RECEIVED_ACTION);
-			msgIntent.putExtra(Constants.KEY_MESSAGE, message);
-			msgIntent.putExtra(Constants.KEY_TITLE, title);
-			if (null != channel) {
-				msgIntent.putExtra(Constants.KEY_CHANNEL, channel);
-			}
-
-			JSONObject all = new JSONObject();
-			try {
-				all.put(Constants.KEY_TITLE, title);
-				all.put(Constants.KEY_MESSAGE, message);
-				all.put(Constants.KEY_EXTRAS, new JSONObject(extras));
-			} catch (JSONException e) {
-			}
-			msgIntent.putExtra("all", all.toString());
-
-			context.sendBroadcast(msgIntent);
-		}
-
-		String chatting = title;
-		if (!StringUtils.isEmpty(channel)) {
-			chatting = channel;
-		}
-
-		String currentChatting = "test02";//MyPreferenceManager.getString(Constants.PREF_CURRENT_CHATTING, null);
-		if (chatting.equalsIgnoreCase(currentChatting)) {
-			Utils.debug("Is now chatting with - " + chatting + ". Dont show notificaiton.");
-			needIncreaseUnread = false;
-			if (!Constant.DEBUG) {
-				return;
-			}
-		}
-
-		if (needIncreaseUnread) {
-			unreadMessage(title, channel);
-		}
-
-		NotificationHelper.showMessageNotification(context, nm, title, message, channel);
-		*/
-		// 将网络通知变成了本地通知
+		// 将网络通知变成了本地通知，并将bundle中的数据显示到Notification上
 		JPushLocalNotification ln = new JPushLocalNotification();
 		ln.setBuilderId(0);
-		ln.setContent("hhh");
-		ln.setTitle("ln");
+		ln.setContent("bundle->Content");
+		ln.setTitle("bundle->Title");
+		// 不同类型的消息要用不同的NotificationId
 		ln.setNotificationId(11111111) ;
 		ln.setBroadcastTime(System.currentTimeMillis() + 1000 * 2);
 
-		Map<String , Object> map = new HashMap<String, Object>() ;
-		map.put("name", "jpush") ;
-		map.put("test", "111") ;
+		// 将bundle中之后需要使用到的数据写入Extras
+		Map<String , Object> map = new HashMap<String, Object>();
+		map.put("name", "bundle->name") ;
+		map.put("data", "bundle->data") ;
 		JSONObject json = new JSONObject(map) ;
-		ln.setExtras(json.toString()) ;
+		ln.setExtras(json.toString());
 		JPushInterface.addLocalNotification(context, ln);
 	}
 
