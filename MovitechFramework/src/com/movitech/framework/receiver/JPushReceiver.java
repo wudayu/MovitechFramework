@@ -60,7 +60,7 @@ public class JPushReceiver extends BroadcastReceiver {
         } else if(JPushInterface.ACTION_CONNECTION_CHANGE.equals(intent.getAction())) {
         	// 当接收到 链接改变 广播时
         	boolean connected = intent.getBooleanExtra(JPushInterface.EXTRA_CONNECTION_CHANGE, false);
-        	Utils.debug("[JPush Warning] 链接改变，" + intent.getAction() +" connected state change to " + connected);
+        	Utils.debug("[JPush Warning] 链接改变，" + intent.getAction() + " connected state change to " + connected);
         } else {
         	// 当无法处理当前广播时
         	Utils.debug("[JPush Error] 无法处理当前广播" + intent.getAction());
@@ -91,14 +91,14 @@ public class JPushReceiver extends BroadcastReceiver {
 		ln.setContent("bundle->Content");
 		ln.setTitle("bundle->Title");
 		// 不同类型的消息要用不同的NotificationId
-		ln.setNotificationId(11111111) ;
+		ln.setNotificationId(11111111);
 		ln.setBroadcastTime(System.currentTimeMillis() + 1000 * 2);
 
 		// 将bundle中之后需要使用到的数据写入Extras
 		Map<String , Object> map = new HashMap<String, Object>();
-		map.put("name", "bundle->name") ;
-		map.put("data", "bundle->data") ;
-		JSONObject json = new JSONObject(map) ;
+		map.put("name", "bundle->name");
+		map.put("data", "bundle->data");
+		JSONObject json = new JSONObject(map);
 		ln.setExtras(json.toString());
 		JPushInterface.addLocalNotification(context, ln);
 	}

@@ -1,14 +1,20 @@
 package com.movitech.framework.fragment;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.app.DatePickerDialog.OnDateSetListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -63,6 +69,33 @@ public class TestFirstFragment extends BaseFragment {
 			public void onClick(View arg0) {
 				Intent intent = new Intent(TestFirstFragment.this.getActivity(), TestActivity.class);
 				startActivity(intent);
+			}
+		});
+		edtTestAutohide.setOnLongClickListener(new OnLongClickListener() {
+			@Override
+			public boolean onLongClick(View view) {
+				Utils.autoCloseKeyboard(TestFirstFragment.this.getActivity(),
+						edtTestAutohide);
+				Calendar calendar = Calendar.getInstance();
+				DatePickerDialog datePicker = new DatePickerDialog(
+						TestFirstFragment.this.getActivity(),
+						android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.GINGERBREAD_MR1 ? AlertDialog.THEME_HOLO_LIGHT
+								: 0, new OnDateSetListener() {
+							@Override
+							public void onDateSet(DatePicker view, int year,
+									int monthOfYear, int dayOfMonth) {
+								// monthOfYear 是从0开始计算的
+								edtTestAutohide.setText(year
+										+ "-"
+										+ (monthOfYear + 1)
+										+ "-"
+										+ dayOfMonth);
+							}
+						}, calendar.get(Calendar.YEAR), calendar
+								.get(Calendar.MONTH), calendar
+								.get(Calendar.DAY_OF_MONTH));
+				datePicker.show();
+				return false;
 			}
 		});
 	}
