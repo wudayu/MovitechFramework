@@ -1,0 +1,43 @@
+#
+# generated on 2015/03/04 06:02:32
+#
+# --table-start--
+dataClass=com.movitech.framework.model.DafUser
+tableName=DafUser
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=user_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=user_name
+# --field-end--
+# --field-start--
+fieldName=screenName
+columnName=screen_name
+# --field-end--
+# --field-start--
+fieldName=mphone
+columnName=m_phone
+# --field-end--
+# --field-start--
+fieldName=photosrc
+columnName=photo_src
+# --field-end--
+# --field-start--
+fieldName=approveState
+columnName=approve_state
+# --field-end--
+# --field-start--
+fieldName=brokerType
+columnName=broker_type
+# --field-end--
+# --field-start--
+fieldName=superiorId
+columnName=superior_id
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

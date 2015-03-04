@@ -1,18 +1,14 @@
 package com.movitech.framework.activity;
 
-import retrofit.Callback;
-import retrofit.RetrofitError;
-import retrofit.client.Response;
 import android.widget.TextView;
-
 import cn.jpush.android.api.JPushInterface;
 
 import com.movitech.framework.R;
-import com.movitech.framework.constant.WeatherCityCode;
 import com.movitech.framework.generic.Utils;
-import com.movitech.framework.net.INetHandler;
-import com.movitech.framework.net.RetrofitNetHandler;
-import com.movitech.framework.net.protocol.WeatherResult;
+import com.movitech.framework.handler.DataHandler;
+import com.movitech.framework.handler.IDataHandler;
+import com.movitech.framework.handler.IDataHandler.DataCallback;
+import com.movitech.framework.model.DafUser;
 import com.movitech.framework.views.ProcessingDialog;
 
 /**
@@ -30,7 +26,7 @@ public class TestActivity extends BaseActivity {
 	public static boolean isForeground = false;
 
 	TextView tvTest = null;
-	INetHandler netHandler = RetrofitNetHandler.getInstance();
+	IDataHandler dataHandler = null;
 
 	@Override
 	protected void initContainer() {
@@ -48,22 +44,23 @@ public class TestActivity extends BaseActivity {
 
 	@Override
 	protected void initData() {
+		dataHandler = DataHandler.getInstance(this);
 	}
 
 	@Override
 	protected void afterAllSet() {
 		processingDialog = new ProcessingDialog(this);
 		processingDialog.show();
-		netHandler.getForWeather(WeatherCityCode.findCityCodeByCityName("苏州"), new Callback<WeatherResult>() {
+		dataHandler.getForUserInfo("9f35c28e869f42aba79d6a64211ce1a2", new DataCallback<DafUser>() {
 			@Override
-			public void success(WeatherResult result, Response response) {
-				tvTest.setText("SUCCESS; HEADERS: " + response.getHeaders() + ";\n\n BODY: " + response.getBody());
-				Utils.toastMessage(TestActivity.this, "" + result);
+			public void onSuccess(DafUser object) {
+				Utils.debug("DafUser = " + object);
 				dismissProcessingDialog();
 			}
+
 			@Override
-			public void failure(RetrofitError error) {
-				RetrofitNetHandler.toastNetworkError(TestActivity.this, error);
+			public void onFailure(String errInfo, Exception excep) {
+				Utils.debug("errInfo = " + errInfo);
 				dismissProcessingDialog();
 			}
 		});

@@ -1,9 +1,11 @@
 package com.movitech.framework.net;
 
 import retrofit.Callback;
+import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;
 import android.app.Activity;
+import android.util.Base64;
 
 import com.movitech.framework.R;
 import com.movitech.framework.generic.Utils;
@@ -70,4 +72,36 @@ public class RetrofitNetHandler implements INetHandler {
 		generalAdpater.create(ImageService.class).uploadPic(relationId, new TypedImage(imagePath), cb);
 	}
 
+
+	/**
+	 * Interceptor used to authorize requests.
+	 */
+	public class AuthRequestInterceptor implements RequestInterceptor {
+
+	    @Override
+	    public void intercept(RequestFacade requestFacade) {
+
+	        // if (user != null) {
+	            final String authorizationValue = encodeCredentialsForBasicAuthorization();
+	            requestFacade.addHeader("Authorization", authorizationValue);
+	        //}
+	    }
+
+	    private String encodeCredentialsForBasicAuthorization() {
+	    	final String username = "deadmin";
+	    	final String password = "deadmin";
+	        final String userAndPassword = username + ":" + password;
+	        return "Basic " + Base64.encodeToString(userAndPassword.getBytes(), Base64.NO_WRAP);
+	    }
+
+	    /*
+	    public User getUser() {
+	        return user;
+	    }
+
+	    public void setUser(User user) {
+	        this.user = user;
+	    }
+	    */
+	}
 }
