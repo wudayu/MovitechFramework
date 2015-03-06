@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/model
+V 80
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/model
+END
+DatabaseConfigUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/model/DatabaseConfigUtil.java
 END
 TypedImage.java
 K 25
@@ -12,8 +18,8 @@ END
 DafUser.java
 K 25
 svn:wc:ra_dav:version-url
-V 92
-/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/model/DafUser.java
+V 93
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/model/DafUser.java
 END
 DafWeather.java
 K 25

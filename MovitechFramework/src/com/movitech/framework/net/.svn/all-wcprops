@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/net
+V 78
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/net
 END
 RetrofitNetHandler.java
 K 25
@@ -12,6 +12,6 @@ END
 INetHandler.java
 K 25
 svn:wc:ra_dav:version-url
-V 94
-/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/net/INetHandler.java
+V 95
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/net/INetHandler.java
 END

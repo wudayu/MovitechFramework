@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 81
-/svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/handler
+V 82
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/handler
+END
+IDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/handler/IDataHandler.java
 END
 IWechatHandler.java
 K 25
@@ -14,6 +20,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 99
 /svn/Android-Team/!svn/ver/3/MovitechFramework/src/com/movitech/framework/handler/IFileHandler.java
+END
+DataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/handler/DataHandler.java
 END
 IImageHandler.java
 K 25

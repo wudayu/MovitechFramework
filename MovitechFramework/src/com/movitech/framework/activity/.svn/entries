@@ -1,14 +1,14 @@
 10
 
 dir
-7
+16
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/src/com/movitech/framework/activity
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-12T02:44:25.856967Z
-7
+2015-03-04T10:05:09.944345Z
+16
 David.Wu
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2015-01-12T02:45:11.000000Z
+2015-03-06T02:15:59.000000Z
 2082fb49fd36673ec25fbd717ab8b692
 2015-01-12T02:44:25.856967Z
 7
@@ -62,11 +62,11 @@ David.Wu
 
 TradingResultActivity.java
 file
-8
 
 
 
-2015-01-12T05:48:04.000000Z
+
+2015-03-06T02:15:59.000000Z
 3f521032b8acfb8eff70b54108730d49
 2015-01-12T05:38:18.234891Z
 8
@@ -100,7 +100,7 @@ file
 
 
 
-2015-01-12T01:35:34.000000Z
+2015-03-06T02:15:59.000000Z
 8b24a9044434a0d02e997b2a1d22387a
 2015-01-12T02:44:25.856967Z
 7
@@ -130,14 +130,14 @@ David.Wu
 
 TestActivity.java
 file
-10
 
 
 
-2015-01-13T08:34:56.000000Z
-51fb40a3ab9e0e12ae6f73963223e335
-2015-01-13T08:42:20.966840Z
-10
+
+2015-03-06T02:15:59.000000Z
+432ba503b5df92d29f835568655e84f0
+2015-03-04T10:05:09.944345Z
+16
 David.Wu
 
 
@@ -160,5 +160,5 @@ David.Wu
 
 
 
-2123
+1882
 

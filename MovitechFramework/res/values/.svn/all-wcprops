@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/Android-Team/!svn/ver/7/MovitechFramework/res/values
+V 58
+/svn/Android-Team/!svn/ver/16/MovitechFramework/res/values
 END
 colors.xml
 K 25
@@ -18,8 +18,8 @@ END
 strings.xml
 K 25
 svn:wc:ra_dav:version-url
-V 69
-/svn/Android-Team/!svn/ver/1/MovitechFramework/res/values/strings.xml
+V 70
+/svn/Android-Team/!svn/ver/16/MovitechFramework/res/values/strings.xml
 END
 dimens.xml
 K 25

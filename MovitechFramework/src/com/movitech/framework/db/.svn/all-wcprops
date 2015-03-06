@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/db
+END
+OrmliteDbHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/db/OrmliteDbHandler.java
+END
+DatabaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/db/DatabaseHelper.java
+END
+IDbHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/db/IDbHandler.java
+END

@@ -1,14 +1,14 @@
 10
 
 dir
-7
+16
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team/MovitechFramework/libs
 https://David.Wu@sz-svn.movit-tech.com/svn/Android-Team
 
 
 
-2015-01-09T08:36:47.925641Z
-4
+2015-03-04T10:05:09.944345Z
+16
 David.Wu
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2014-12-09T09:42:06.000000Z
+2015-03-06T02:16:04.000000Z
 e16b1b8fca0980263f764f633ec91dd6
 2015-01-09T02:05:23.878393Z
 1
@@ -60,16 +60,13 @@ has-props
 
 210856
 
-armeabi
-dir
-
 nineoldandroids-2.4.0.jar
 file
 
 
 
 
-2014-12-09T09:42:06.000000Z
+2015-03-06T02:16:04.000000Z
 d719629ae7c443ed75566ef241bc835d
 2015-01-09T02:05:23.878393Z
 1
@@ -97,47 +94,13 @@ has-props
 
 110746
 
-spring-android-rest-template-1.0.2.BUILD-SNAPSHOT.jar
-file
-
-
-
-
-2014-12-09T09:42:06.000000Z
-764ca27ad25af21149662d92b1230e8b
-2015-01-09T02:05:23.878393Z
-1
-David.Wu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-180970
-
 jpush-sdk-release1.7.1.jar
 file
-10
 
 
 
-2015-01-13T02:29:18.000000Z
+
+2015-03-06T02:16:04.000000Z
 f365018068acad11fa58a68c963d0b10
 2015-01-13T08:42:20.966840Z
 10
@@ -165,13 +128,223 @@ has-props
 
 279351
 
+jackson-core-2.2.3.jar
+file
+
+
+
+
+2015-03-06T02:16:04.000000Z
+d30b99b7e07a8a35205c8b4eb3064746
+2015-01-09T02:05:23.878393Z
+1
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+192699
+
+armeabi-v7a
+dir
+
+android-support-v4.jar
+file
+
+
+
+
+2015-03-06T02:16:04.000000Z
+0e7dc7acd3505ac97eb7e6d72719bab5
+2015-01-09T02:05:23.878393Z
+1
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+627582
+
+jackson-annotations-2.2.3.jar
+file
+
+
+
+
+2015-03-06T02:16:04.000000Z
+f7f09fe009c61b73514fb59efe957a1b
+2015-01-09T02:05:23.878393Z
+1
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33483
+
+ormlite-android-4.48.jar
+file
+
+
+
+
+2015-03-06T02:16:04.000000Z
+5cc9f499634671bbacdb1683ae52c24d
+2015-03-04T10:05:09.944345Z
+16
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+56570
+
+armeabi
+dir
+
+spring-android-rest-template-1.0.2.BUILD-SNAPSHOT.jar
+file
+
+
+
+
+2015-03-06T02:16:04.000000Z
+764ca27ad25af21149662d92b1230e8b
+2015-01-09T02:05:23.878393Z
+1
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+180970
+
+ormlite-core-4.48.jar
+file
+
+
+
+
+2015-03-06T02:16:04.000000Z
+74d1b09c4d0e3e216b0584485208c515
+2015-03-04T10:05:09.944345Z
+16
+David.Wu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+294232
+
 jackson-databind-2.2.3.jar
 file
 
 
 
 
-2014-12-09T09:42:06.000000Z
+2015-03-06T02:16:04.000000Z
 6e8d8b13d5d4200b782516d2cd6c9469
 2015-01-09T02:05:23.878393Z
 1
@@ -205,7 +378,7 @@ file
 
 
 
-2014-12-09T09:42:06.000000Z
+2015-03-06T02:16:04.000000Z
 ecaf92980bc5254946e1743abb74b212
 2015-01-09T02:05:23.878393Z
 1
@@ -233,47 +406,13 @@ has-props
 
 107931
 
-jackson-core-2.2.3.jar
-file
-
-
-
-
-2014-12-09T09:42:06.000000Z
-d30b99b7e07a8a35205c8b4eb3064746
-2015-01-09T02:05:23.878393Z
-1
-David.Wu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-192699
-
 wechat_libammsdk.jar
 file
 
 
 
 
-2015-01-09T08:36:39.000000Z
+2015-03-06T02:16:04.000000Z
 f92c305b01880478392955f110c756c3
 2015-01-09T08:36:47.925641Z
 4
@@ -307,7 +446,7 @@ file
 
 
 
-2014-12-10T10:24:12.000000Z
+2015-03-06T02:16:04.000000Z
 8c59caadd0bb36305ee729f56f22f0c5
 2015-01-09T02:05:23.878393Z
 1
@@ -335,50 +474,13 @@ has-props
 
 118125
 
-armeabi-v7a
-dir
-
-android-support-v4.jar
-file
-
-
-
-
-2014-12-09T09:42:06.000000Z
-0e7dc7acd3505ac97eb7e6d72719bab5
-2015-01-09T02:05:23.878393Z
-1
-David.Wu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-627582
-
 universal-image-loader-1.9.2.jar
 file
 
 
 
 
-2014-12-09T09:42:06.000000Z
+2015-03-06T02:16:04.000000Z
 44e18d51b00b5c1520df55f4fbee1f19
 2015-01-09T02:05:23.878393Z
 1
@@ -405,38 +507,4 @@ has-props
 
 
 159551
-
-jackson-annotations-2.2.3.jar
-file
-
-
-
-
-2014-12-09T09:42:06.000000Z
-f7f09fe009c61b73514fb59efe957a1b
-2015-01-09T02:05:23.878393Z
-1
-David.Wu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-33483
 

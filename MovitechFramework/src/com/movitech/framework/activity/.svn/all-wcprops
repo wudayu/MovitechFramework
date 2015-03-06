@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/Android-Team/!svn/ver/7/MovitechFramework/src/com/movitech/framework/activity
+V 83
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/activity
 END
 MainActivity.java
 K 25
@@ -25,5 +25,5 @@ TestActivity.java
 K 25
 svn:wc:ra_dav:version-url
 V 101
-/svn/Android-Team/!svn/ver/10/MovitechFramework/src/com/movitech/framework/activity/TestActivity.java
+/svn/Android-Team/!svn/ver/16/MovitechFramework/src/com/movitech/framework/activity/TestActivity.java
 END

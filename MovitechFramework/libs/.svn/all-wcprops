@@ -1,13 +1,25 @@
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/Android-Team/!svn/ver/4/MovitechFramework/libs
+V 52
+/svn/Android-Team/!svn/ver/16/MovitechFramework/libs
+END
+ormlite-android-4.48.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Android-Team/!svn/ver/16/MovitechFramework/libs/ormlite-android-4.48.jar
 END
 gson-2.3.1.jar
 K 25
 svn:wc:ra_dav:version-url
 V 66
 /svn/Android-Team/!svn/ver/1/MovitechFramework/libs/gson-2.3.1.jar
+END
+jpush-sdk-release1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android-Team/!svn/ver/10/MovitechFramework/libs/jpush-sdk-release1.7.1.jar
 END
 nineoldandroids-2.4.0.jar
 K 25
@@ -21,17 +33,17 @@ svn:wc:ra_dav:version-url
 V 105
 /svn/Android-Team/!svn/ver/1/MovitechFramework/libs/spring-android-rest-template-1.0.2.BUILD-SNAPSHOT.jar
 END
-jpush-sdk-release1.7.1.jar
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/Android-Team/!svn/ver/10/MovitechFramework/libs/jpush-sdk-release1.7.1.jar
-END
 jackson-databind-2.2.3.jar
 K 25
 svn:wc:ra_dav:version-url
 V 78
 /svn/Android-Team/!svn/ver/1/MovitechFramework/libs/jackson-databind-2.2.3.jar
+END
+ormlite-core-4.48.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Android-Team/!svn/ver/16/MovitechFramework/libs/ormlite-core-4.48.jar
 END
 spring-android-core-1.0.2.BUILD-SNAPSHOT.jar
 K 25

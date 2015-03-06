@@ -17,7 +17,7 @@
 ####MainActivity
 		MainActivity是项目的真正主界面当所有数据加载完成后，用户看到的就是这个页面。他包括了一个ViewPager和一个PageSelectBar。
 ####TestActivity
-		TestActivity用来测试某些功能。
+		TestActivity用来测试某些功能，目前用来测试DataHandler的网络与数据库访问整合。
 ####TradingResultActivity
 		TradingResultActivity是微信支付的回调类在回调之后所前往的页面。
 
@@ -43,11 +43,20 @@
 ####WeatherCityCode
 		WeatherCityCode包含了城市的天气代码。
 
-4. ###com.movitech.framework.fragment
+4. ###com.movitech.framework.db
+####DatabaseHelper
+		DatabaseHelper是使用OrmLiteSqliteOpenHelper的DatabaseHelper。是整个db操作的核心类。包括了建表操作和表结构升级操作。
+####IDbHandler
+		IDbHandler是继承于IDataHandler，由于IDataHandler是为了在View的组件层提供数据库和网络访问的统一接口，所以凡是IDataHandler要处理的方法（通常是获取数据的get/post方法），IDbHandler都需要有，同时，IDbHandler还需要具有一些插入表数据的方法（通常是set，或者说update方法）。
+####OrmliteDbHandler
+		OrmliteDbHandler是IDbHandler的实现类，使用了Ormlite开源库。通过OO的方式，向View层提供数据对象。需要注意的是，在编写set类型的方法时，需要作一些必要的逻辑判断，例如，set方法的参数为null的时候，是需要清空这个表，还是不做任何操作等。
+
+
+5. ###com.movitech.framework.fragment
 ####BaseFragment
 		BaseFragment是所有Fragment的根类。它使用getActivity方法初始化了mContext作为上下文对象。
 
-5. ###com.movitech.framework.generic
+6. ###com.movitech.framework.generic
 ####Utils
 		Utils是静态工具类，包括Debug调试函数，标准Toast调用以及诸如防止多次点击的工具。
 ####interfaces.ISDCard
@@ -55,7 +64,11 @@
 ####SDCard
 		SDCard相关操作实现类。
 
-6. ###com.movitech.framework.handler
+7. ###com.movitech.framework.handler
+####IDataHandler
+		IDataHandler是为了对View层提供统一数据库与网络访问的接口，View层发出访问请求后，具体是通过数据库取数据还是通过网络来取数据由DataHandler得实现类来决定。同时，其还包含了一个DataCallback，用来给其实现类执行View层的对数据的获取成功或获取失败的回调。
+####DataHandler
+		DataHandler是IDataHandler的实现类，由DataHandler来决定通过数据库取数据还是通过网络来取数据。一般情况下，数据库用来进行界面数据的临时存储，当没有网络的时候，DataHandler可以决定从数据库中取出数据，返回给View层。
 ####IFileHandler
 		IFileHandler是文件处理者的接口类。
 ####FileHandler
@@ -69,19 +82,21 @@
 ####WechatHandler
 		WechatHandler是包含了对微信操作的一系列工具，目前只包含微信支付部分。
 		
-7. ###com.movitech.framework.listener
+8. ###com.movitech.framework.listener
 ####BannerViewOnItemClickListener
 		BannerViewOnItemClickListener是显示各种滚动广告的控件的监听器，可以对不同类型的广告进行不同的处理。
 
-8. ###com.wudayu.model
+9. ###com.wudayu.model
 ####DafUser
-		DafUser是UserModel的Object Json对象。
+		DafUser是UserModel的Object Json对象，目前是用来做本地数据库建表的例子。
 ####DafWeather
 		DafWeather是WeatherModel的Object Json对象。
+####DatabaseConfigUtil
+		DatabaseConfigUtil是用来生成Ormlite建表文件的主程序，一般在新建了某些与数据库关联的model之后，需要用其来生成db_config文件，此文件在DatabaseHelper类中加载使用，为的是快速建立表，使用annotation会比较慢，且容易出现一系列问题。需要注意的是，在单独运行这个Util的时候，需要从运行的BuildPath中去除Android的jar引用。
 ####TypedImage
 		TypedImage是对图片进行对象化的类，若需要上传图片，则需要将图片变成次对象类型。
 
-9. ###com.wudayu.net
+10. ###com.wudayu.net
 ####converter.JacksonConverter
 		JacksonConverter是为Retrofit编写的使用Jackson来解析对象的Json Converter，默认使用的mime_type是 application/json，可以在构造函数中选择text/html。
 ####protocol.BaseResult
@@ -103,15 +118,15 @@
 ####RetrofitNetHandler
 		RetrofitNetHandler是INetHandler的Retrofit实现，目前本项目仅打算使用Retrofit作为其网络访问框架。
 
-10. ###com.movitech.framework.receiver
+11. ###com.movitech.framework.receiver
 ####PushReceiver
 		PushReceiver是用来唤醒PushService的广播。它们是一对，通过向服务器拉取推送来进行推送显示的，PushService的开关是Constant.needPush。
 
-11. ###com.movitech.framework.service
+12. ###com.movitech.framework.service
 ####PushService
 		PushService是通过向服务器拉取推送来进行推送显示的，PushService的开关是Constant.needPush。
 
-12. ###com.movitech.framework.views
+13. ###com.movitech.framework.views
 ####imagezoom.GestureImageView
 		imagezoom整个包都是用来支持可控制放大缩小的GestureImageView的控件，可以直接将ImageView用GestureImageView替换。
 ####BannerView
@@ -137,15 +152,15 @@
 ####SwitchViewPager
 		SwitchViewPager是可以自动滚动的ViewPager。   
 
-13. ###com.movitech.wxapi 
+14. ###com.movitech.wxapi 
 ####WXPayEntryActivity
 		WXPayEntryActivity是微信的回调类，在微信执行完一定任务后，就会调用此类相关方法。
 
-14. ###com.movitech.framework
+15. ###com.movitech.framework
 ####MainApp
 		MainApp是整个项目使用的Application，其中初始化了一些操作，如果有需要也可以添加一些全局变量。
   
 ## Need to do
 1.Wechat Pay Support --> **David Wu** has finished this task.  
-2.Push Service Support --> **David Wu** is on researching  
-3.Local DataBase Support
+2.Push Service Support --> **David Wu** has finished this task.   
+3.Local DataBase Support --> **David Wu** has finished this task. 
